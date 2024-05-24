@@ -1,5 +1,3 @@
-# Weather App
-
 # Weather Checker
 
 This is a simple web application that tells the user if it will rain tomorrow in their location of choice. It uses the OpenWeatherMap API to fetch weather data.
