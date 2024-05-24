@@ -1,1 +1,18 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Checker</title>
+    <link rel="stylesheet" href="/css/styles.css"> <!-- Link to the CSS file -->
+</head>
+<body>
+    <div class="container">
+        <h1>Check if it will rain tomorrow</h1>
+        <form action="/weather" method="POST"> <!-- Form to submit the city -->
+            <input type="text" name="city" placeholder="Enter city" required> <!-- Input for the city name -->
+            <button type="submit">Check Weather</button> <!-- Submit button -->
+        </form>
+    </div>
+</body>
+</html>
